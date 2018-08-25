@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shenshouer/upgradeTest1.git"
+    "url": "git+https://github.com/minyanan/ios_webapp_update.git"
   },
   "keywords": [
     "update"
