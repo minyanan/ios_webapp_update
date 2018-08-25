@@ -1,0 +1,22 @@
+{
+  "name": "com.version.demo",
+  "version": "1.0.0",
+  "description": "中达BIM_webapp更新",
+  "main": "index.js",
+  "scripts": {
+    "test": "bim -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenshouer/upgradeTest1.git"
+  },
+  "keywords": [
+    "update"
+  ],
+  "author": "minyanan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shenshouer/upgradeTest1/issues"
+  },
+  "homepage": "https://github.com/shenshouer/upgradeTest1#readme"
+}
