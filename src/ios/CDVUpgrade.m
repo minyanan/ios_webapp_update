@@ -16,8 +16,8 @@
     //self.appInfoUrl = [viewController.settings objectForKey:@"appInfoUrl"];
     //self.appUpgradeUrl = [viewController.settings objectForKey:@"appUpgradeUrl"];
     // 修改成你自己app的信息
-    self.appInfoUrl = @"http://itunes.apple.com/cn/lookup?id=284910350";
-    self.appUpgradeUrl = @"http://itunes.apple.com/cn/lookup?id=284910350";
+    self.appInfoUrl = @"http://itunes.apple.com/cn/lookup?id=1424101779";
+    self.appUpgradeUrl = @"http://itunes.apple.com/cn/lookup?id=1424101779";
 }
 
 - (void)checkUpgrade:(CDVInvokedUrlCommand*)command{
