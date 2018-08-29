@@ -44,11 +44,16 @@
     //NSString *localVersion = @"9.10.0";
     
     NSString *msg = [NSString stringWithFormat:@"你当前的版本是V%@，发现新版本V%@，是否下载新版本？",localVersion,newVersion];
-    
+    NSString *msg2 = [NSString stringWithFormat:@"你当前已是新版本V%@",localVersion];
     //对比发现的新版本和本地的版本
     if ([newVersion floatValue] > [localVersion floatValue])
     {
         UIAlertView *createUserResponseAlert = [[UIAlertView alloc] initWithTitle:@"升级提示!" message:msg delegate:self cancelButtonTitle:@"下次再说" otherButtonTitles: @"现在升级", nil];
+        [createUserResponseAlert show];
+        [createUserResponseAlert release];
+    }else{
+        NSLog(@"最新版本不需要更新");
+        UIAlertView *createUserResponseAlert = [[UIAlertView alloc] initWithTitle:@"版本提示:" message:msg2 delegate:self ,nil];
         [createUserResponseAlert show];
         [createUserResponseAlert release];
     }
