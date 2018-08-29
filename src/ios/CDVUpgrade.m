@@ -44,7 +44,7 @@
     //NSString *localVersion = @"9.10.0";
     
     NSString *msg = [NSString stringWithFormat:@"你当前的版本是V%@，发现新版本V%@，是否下载新版本？",localVersion,newVersion];
-    NSString *msg2 = [NSString stringWithFormat:@"你当前已是新版本V%@",newVersion];
+    NSString *msg2 = [NSString stringWithFormat:@"你当前已是最新版本V%@",newVersion];
     
     //对比发现的新版本和本地的版本
     if ([newVersion floatValue] > [localVersion floatValue])
